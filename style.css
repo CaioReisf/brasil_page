@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'minhafonte';
+    src: url(Next\ Ups\ Black.ttf) format('black.ttf');
+    src: url(Next\ Ups.ttf) format('ttf');
+    font-size: normal;
+
+
+}
+
+header {
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.logo h1 {
+    color: black;
+    font-family: 'minhafonte', sans-serif;
+}
+
+.lista ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 30px;
+    list-style: none;
+}
+
+.lista a {
+    text-decoration: none;
+    color: black;
+}
